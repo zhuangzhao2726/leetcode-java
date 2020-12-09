@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="64deef0c-58ca-4bfa-969d-570d332da769" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="64deef0c-58ca-4bfa-969d-570d332da769" name="Default Changelist" comment="" />
+>>>>>>> 760ac88... init
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +22,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2940">
@@ -32,24 +37,44 @@
                 <element signature="e#13254#13255#0" expanded="true" />
                 <element signature="e#13331#13332#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/two/one/five/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+>>>>>>> 760ac88... init
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/weekly/contest/twooneeight/one/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="60" selection-start-column="60" selection-end-column="60" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/one/eight/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+>>>>>>> 760ac88... init
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/weekly/contest/twooneeight/two/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" selection-start-line="9" selection-end-line="30" selection-end-column="21" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/one/eight/douyin/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="39" />
+>>>>>>> 760ac88... init
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,15 +83,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/weekly/contest/twooneeight/three/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" selection-start-line="3" selection-end-line="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/one/nine/lcp/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="30" selection-start-line="4" selection-end-line="16" selection-end-column="41" />
+>>>>>>> 760ac88... init
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/weekly/contest/twooneeight/four/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -75,15 +108,28 @@
                 <element signature="e#140#141#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/two/two/lcp/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="23" selection-start-line="9" selection-start-column="16" selection-end-line="11" selection-end-column="23" />
+>>>>>>> 760ac88... init
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/one/one/eight/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/zero/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+>>>>>>> 760ac88... init
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,37 +138,75 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/Solution1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" selection-start-line="3" selection-end-line="21" selection-end-column="5" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/zero/Solution1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+>>>>>>> 760ac88... init
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/five/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" selection-start-line="3" selection-end-line="18" />
+=======
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="218" column="19" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
+              <folding>
+                <element signature="e#3740#3741#0" expanded="true" />
+                <element signature="e#3777#3778#0" expanded="true" />
+                <element signature="e#4865#4866#0" expanded="true" />
+                <element signature="e#4929#4930#0" expanded="true" />
+                <element signature="e#8064#8065#0" expanded="true" />
+                <element signature="e#8112#8113#0" expanded="true" />
+                <element signature="e#13254#13255#0" expanded="true" />
+                <element signature="e#13331#13332#0" expanded="true" />
+              </folding>
+>>>>>>> 760ac88... init
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5910">
               <caret line="432" column="8" selection-start-line="432" selection-start-column="8" selection-end-line="432" selection-end-column="8" />
+=======
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Set.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="224" column="14" selection-start-line="224" selection-start-column="14" selection-end-line="224" selection-end-column="14" />
+>>>>>>> 760ac88... init
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="9090">
               <caret line="657" column="18" selection-start-line="657" selection-start-column="18" selection-end-line="657" selection-end-column="18" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/two/one/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+>>>>>>> 760ac88... init
             </state>
           </provider>
         </entry>
@@ -155,12 +239,27 @@
       <replace>&quot;</replace>
     </replaceStrings>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/six/seven/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/six/eight/seven/Solution1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/six/eight/Solution1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/six/eight/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/six/nine/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/seven/zero/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/interview/test/one/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/eight/four/four/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/seven/one/Solution.java" />
+>>>>>>> 760ac88... init
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/one/four/three/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/seven/three/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/weekly/contest/twoonefour/one/Solution.java" />
@@ -200,6 +299,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/one/eight/douyin/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/one/nine/lcp/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/two/two/lcp/Solution.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/zero/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/zero/Solution1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/weekly/contest/twooneeight/one/Solution.java" />
@@ -212,6 +312,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/Solution1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/five/Solution.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/zero/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/zero/Solution1.java" />
+>>>>>>> 760ac88... init
       </list>
     </option>
   </component>
@@ -229,17 +334,28 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+<<<<<<< HEAD
     <option name="x" value="-480" />
     <option name="y" value="-1080" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+>>>>>>> 760ac88... init
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> 760ac88... init
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,6 +396,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="one" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -299,6 +416,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="four" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 760ac88... init
               <item name="four" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -308,7 +427,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="one" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="two" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 760ac88... init
             </path>
             <path>
               <item name="leetcode-java" type="b2602c69:ProjectViewProjectNode" />
@@ -317,13 +440,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="one" type="462c0819:PsiDirectoryNode" />
               <item name="one" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="two" type="462c0819:PsiDirectoryNode" />
+              <item name="two" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 760ac88... init
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -333,6 +462,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/weekly/contest/twooneeight" />
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/offer" />
+>>>>>>> 760ac88... init
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/interview/one/two" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -367,6 +504,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhuangzhao.leetcode.weekly.contest.twooneeight.three.Solution" />
@@ -374,6 +512,15 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhuangzhao.leetcode.weekly.contest.twooneeight.three.*" />
+=======
+  <component name="RunManager" selected="Application.Solution1">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhuangzhao.leetcode.one.nine.lcp.Solution" />
+      <module name="leetcode-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhuangzhao.leetcode.one.nine.lcp.*" />
+>>>>>>> 760ac88... init
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -381,12 +528,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhuangzhao.leetcode.four.five.Solution" />
       <module name="leetcode-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhuangzhao.leetcode.four.five.*" />
+=======
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhuangzhao.leetcode.two.two.lcp.Solution" />
+      <module name="leetcode-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhuangzhao.leetcode.two.two.lcp.*" />
+>>>>>>> 760ac88... init
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,12 +550,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhuangzhao.leetcode.one.one.eight.Solution" />
       <module name="leetcode-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhuangzhao.leetcode.one.one.eight.*" />
+=======
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhuangzhao.leetcode.four.four.zero.Solution" />
+      <module name="leetcode-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhuangzhao.leetcode.four.four.zero.*" />
+>>>>>>> 760ac88... init
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,12 +572,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhuangzhao.leetcode.four.four.Solution" />
       <module name="leetcode-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhuangzhao.leetcode.four.four.*" />
+=======
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhuangzhao.leetcode.one.eight.douyin.Solution" />
+      <module name="leetcode-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhuangzhao.leetcode.one.eight.douyin.*" />
+>>>>>>> 760ac88... init
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -421,11 +595,19 @@
       </method>
     </configuration>
     <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.zhuangzhao.leetcode.four.four.Solution1" />
       <module name="leetcode-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zhuangzhao.leetcode.four.four.*" />
+=======
+      <option name="MAIN_CLASS_NAME" value="com.zhuangzhao.leetcode.four.four.zero.Solution1" />
+      <module name="leetcode-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhuangzhao.leetcode.four.four.zero.*" />
+>>>>>>> 760ac88... init
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,11 +617,18 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.Solution (2)" />
+=======
+>>>>>>> 760ac88... init
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (1)" />
+<<<<<<< HEAD
+=======
+        <item itemvalue="Application.Solution" />
+>>>>>>> 760ac88... init
       </list>
     </recent_temporary>
   </component>
@@ -518,8 +707,11 @@
       <workItem from="1606757617246" duration="1617000" />
       <workItem from="1606790092485" duration="1296000" />
       <workItem from="1606792589323" duration="19531000" />
+<<<<<<< HEAD
       <workItem from="1607224339223" duration="11050000" />
       <workItem from="1607265484985" duration="249000" />
+=======
+>>>>>>> 760ac88... init
     </task>
     <servers />
   </component>
@@ -529,12 +721,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="286125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-316" y="-1080" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24813631" />
+=======
+    <option name="totallyTimeSpent" value="274826000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-480" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2428115" />
+>>>>>>> 760ac88... init
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -543,15 +745,24 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.27254307" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42147923" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27261463" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26545087" />
+>>>>>>> 760ac88... init
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32826748" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3283767" />
+>>>>>>> 760ac88... init
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32624114" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32961586" />
@@ -1042,6 +1253,7 @@
           <properties />
           <option name="timeStamp" value="137" />
         </line-breakpoint>
+<<<<<<< HEAD
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/one/one/eight/Solution.java</url>
           <line>31</line>
@@ -1068,10 +1280,15 @@
         <watch expression="yiwei(i, xi[i])" language="JAVA" />
       </configuration>
     </watches-manager>
+=======
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> 760ac88... init
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
+<<<<<<< HEAD
         <expression-string>yiwei(i, xi[i])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1082,6 +1299,8 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
+=======
+>>>>>>> 760ac88... init
         <expression-string>(Math.min(f[i - 1][1], f[i - 1][2]) + (leaves.charAt(i) == 'r' ? 0 : 1))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -1121,9 +1340,119 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
+<<<<<<< HEAD
     </expressions>
   </component>
   <component name="editorHistoryManager">
+=======
+      <expression>
+        <expression-string>((long) left + right + 1)* (long) (index + 1)  / 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>total + ((long)left + right + 1) * (left - right) / 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/weekly/contest/twoonefour/three/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/interview_internal_reference/one/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="908" column="37" lean-forward="true" selection-start-line="908" selection-start-column="37" selection-end-line="908" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/one/four/six/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17115">
+          <caret line="1196" column="56" selection-start-line="1196" selection-start-column="38" selection-end-line="1196" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/interview_internal_reference/four/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" selection-start-line="13" selection-end-line="28" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="162" column="31" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="31" />
+          <folding>
+            <element signature="e#19667#19668#0" expanded="true" />
+            <element signature="e#19695#19696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="137" column="25" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="25" />
+          <folding>
+            <element signature="e#24331#24332#0" expanded="true" />
+            <element signature="e#24396#24397#0" expanded="true" />
+            <element signature="e#66928#66929#0" expanded="true" />
+            <element signature="e#66985#66986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/interview_internal_reference/test/LruCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 760ac88... init
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/three/one/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1374,6 +1703,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/two/one/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 760ac88... init
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/two/one/five/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1390,7 +1729,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/one/eight/douyin/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="75">
+=======
+        <state relative-caret-position="120">
+>>>>>>> 760ac88... init
           <caret line="8" selection-start-line="8" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1405,6 +1748,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/Solution.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> 760ac88... init
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/two/two/lcp/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1414,7 +1763,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/zero/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="60">
+=======
+        <state relative-caret-position="75">
+>>>>>>> 760ac88... init
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1424,18 +1777,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/four/four/zero/Solution1.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="360">
+=======
+        <state relative-caret-position="126">
+>>>>>>> 760ac88... init
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="3015">
+=======
+        <state relative-caret-position="252">
+>>>>>>> 760ac88... init
           <caret line="224" column="14" selection-start-line="224" selection-start-column="14" selection-end-line="224" selection-end-column="14" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/two/one/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1454,6 +1816,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2940">
           <caret line="230" column="6" selection-start-line="230" selection-start-column="6" selection-end-line="230" selection-end-column="6" />
+=======
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="218" column="19" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
+>>>>>>> 760ac88... init
           <folding>
             <element signature="e#3740#3741#0" expanded="true" />
             <element signature="e#3777#3778#0" expanded="true" />
@@ -1467,6 +1835,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuangzhao/leetcode/weekly/contest/twooneeight/one/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1540,6 +1909,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 760ac88... init
   </component>
   <component name="masterDetails">
     <states>

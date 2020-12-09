@@ -9,5 +9,8 @@
         <module name="leetcode-java" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leetcode-java" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
