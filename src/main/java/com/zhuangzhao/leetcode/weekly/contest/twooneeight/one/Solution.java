@@ -4,7 +4,7 @@ class Solution {
 
     public String interpret(String command) {
         StringBuffer buffer = new StringBuffer();
-        for (int i = 0; i < command.length();) {
+        for (int i = 0; i < command.length(); ) {
             if (command.startsWith("G", i)) {
                 buffer.append("G");
                 i += 1;

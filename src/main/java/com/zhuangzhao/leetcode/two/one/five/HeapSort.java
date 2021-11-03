@@ -43,7 +43,7 @@ public class HeapSort {
 
         // 最小堆
         while (index * 2 + 1 < length) {
-            int min  = nums[index];
+            int min = nums[index];
             int i = index;
             if (nums[index * 2 + 1] < nums[index]) {
                 min = nums[index * 2 + 1];
@@ -67,7 +67,7 @@ public class HeapSort {
 
     public static void main(String[] args) {
         HeapSort heapSort = new HeapSort();
-        int[] nums = {1,10,3,4,5,6,7,8,9};
+        int[] nums = {1, 10, 3, 4, 5, 6, 7, 8, 9};
         heapSort.print(nums);
         heapSort.headSort(nums);
         heapSort.print(nums);

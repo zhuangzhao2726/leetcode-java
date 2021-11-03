@@ -45,7 +45,7 @@ class Solution {
         Solution solution = new Solution();
 
 
-        int[] arr = {1,9,8,2,3,7,6,4,5};
+        int[] arr = {1, 9, 8, 2, 3, 7, 6, 4, 5};
 
         System.out.println(solution.getWinner(arr, 1));
         System.out.println(solution.getWinner(arr, 2));

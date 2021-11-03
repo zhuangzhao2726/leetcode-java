@@ -9,7 +9,7 @@ class OrderedStream {
 
     int ptr;
 
-    Map<Integer,  String> map;
+    Map<Integer, String> map;
 
 
     public OrderedStream(int n) {
@@ -17,12 +17,12 @@ class OrderedStream {
         this.map = new HashMap<>();
 
     }
-    
+
     public List<String> insert(int id, String value) {
         map.put(id, value);
         List<String> result = new ArrayList<>();
         while (map.containsKey(ptr)) {
-            result.add(map.get(ptr)) ;
+            result.add(map.get(ptr));
             ptr++;
         }
         return result;

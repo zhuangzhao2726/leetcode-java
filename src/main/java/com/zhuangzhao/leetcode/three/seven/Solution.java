@@ -66,7 +66,6 @@ class Solution {
     }
 
 
-
     public boolean fillSudokuCol(char[][] board) {
         for (int i = 0; i < board[0].length; i++) {
             char[] col = new char[board.length];
@@ -92,11 +91,11 @@ class Solution {
         return true;
     }
 
-    public boolean fillSudokuBox(char[][] board){
-        for (int i = 0; i < 9; i+=3) {
-            for (int j = 0; j < 9; j+=3) {
+    public boolean fillSudokuBox(char[][] board) {
+        for (int i = 0; i < 9; i += 3) {
+            for (int j = 0; j < 9; j += 3) {
                 char[] array = new char[9];
-                for (int row = 0; row < 3; row ++) {
+                for (int row = 0; row < 3; row++) {
                     for (int col = 0; col < 3; col++) {
                         array[row * 3 + col] = board[i + row][j + col];
                     }
@@ -117,7 +116,7 @@ class Solution {
         List<Character> allNumsList = this.getALLNumsList();
         for (int i = 0; i < array.length; i++) {
             allNumsList.remove((Character) array[i]);
-            if (array[i] =='.') {
+            if (array[i] == '.') {
                 count++;
                 if (index < 0) {
                     index = i;

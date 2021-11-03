@@ -31,7 +31,6 @@ public class Solution {
 }
 
 
-
 class LRUCache {
 
     public static final int DEFAULT_CAPACITY = 2;
@@ -73,7 +72,7 @@ class LRUCache {
         if (node != null) {
             node.val = value;
             this.useNode(node);
-        } else if (cacheMap.size() < capaccity){
+        } else if (cacheMap.size() < capaccity) {
             node = new Node(key, value);
             this.insertNode(node);
         } else {
@@ -120,7 +119,7 @@ class LRUCache {
     }
 
     private void useNode(Node node) {
-        if (node== null || node == head) {
+        if (node == null || node == head) {
             return;
         }
         if (node == tail) {

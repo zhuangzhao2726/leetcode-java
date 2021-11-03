@@ -19,7 +19,7 @@ public class Solution {
 
         Solution solution = new Solution();
         solution.maxPrice = 0;
-        solution.minPrice =  new int[count];
+        solution.minPrice = new int[count];
         solution.search(weight, price, cap, 0, 0, 0);
         System.out.println(solution.maxPrice);
     }

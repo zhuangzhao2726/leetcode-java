@@ -4,7 +4,10 @@ package com.zhuangzhao.leetcode.two.one;
 class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
+
+    ListNode(int x) {
+        val = x;
+    }
 }
 
 class Solution {
@@ -57,7 +60,6 @@ class Solution {
         }
         return head;
     }
-
 
 
 }

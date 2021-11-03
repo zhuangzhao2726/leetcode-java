@@ -75,7 +75,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums  = {10,1,2,7,6,1,5};
+        int[] nums = {10, 1, 2, 7, 6, 1, 5};
         List<List<Integer>> lists = solution.combinationSum2(nums, 8);
         for (List<Integer> list : lists) {
             StringBuilder builder = new StringBuilder();

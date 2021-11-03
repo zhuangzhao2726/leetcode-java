@@ -7,7 +7,6 @@ package com.zhuangzhao.leetcode.two.one.five;
 public class MergeSort {
 
 
-
     private void sort(int[] nums) {
         int[] var = new int[nums.length];
         this.sort(nums, 0, nums.length - 1, var);
@@ -44,7 +43,7 @@ public class MergeSort {
 
     public static void main(String[] args) {
         MergeSort mergeSort = new MergeSort();
-        int[] nums = {9,8,7,6,5,4,3,2,1};
+        int[] nums = {9, 8, 7, 6, 5, 4, 3, 2, 1};
         mergeSort.print(nums);
         mergeSort.sort(nums);
         mergeSort.print(nums);

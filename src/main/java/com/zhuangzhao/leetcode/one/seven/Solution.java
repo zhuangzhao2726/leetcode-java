@@ -14,7 +14,7 @@ class Solution {
     }
 
 
-    private  List<String> letterCombinations(String digits, String buffer) {
+    private List<String> letterCombinations(String digits, String buffer) {
 
         List<String> result = new ArrayList<>();
         if (digits.isEmpty()) {
@@ -25,9 +25,9 @@ class Solution {
         int total = (ch == '7' || ch == '9') ? 4 : 3;
         for (int i = 0; i < total; i++) {
             if (ch <= '7') {
-                result.addAll(letterCombinations(digits.substring(1), buffer + (char)('a' + 3 * (ch - '2') + i)));
+                result.addAll(letterCombinations(digits.substring(1), buffer + (char) ('a' + 3 * (ch - '2') + i)));
             } else {
-                result.addAll(letterCombinations(digits.substring(1), buffer + (char)('t' + 3 * (ch - '8') + i)));
+                result.addAll(letterCombinations(digits.substring(1), buffer + (char) ('t' + 3 * (ch - '8') + i)));
             }
         }
         return result;

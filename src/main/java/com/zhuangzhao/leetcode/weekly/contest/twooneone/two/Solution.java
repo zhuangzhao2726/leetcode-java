@@ -34,7 +34,7 @@ class Solution {
     private String operate1(String s, int a) {
         StringBuffer buffer = new StringBuffer(s);
         for (int i = 1; i < s.length(); i += 2) {
-            buffer.setCharAt( i, (char)('0' + (s.charAt(i) - '0' + a) % 10));
+            buffer.setCharAt(i, (char) ('0' + (s.charAt(i) - '0' + a) % 10));
         }
         return buffer.toString();
     }

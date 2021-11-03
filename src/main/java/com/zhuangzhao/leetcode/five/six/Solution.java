@@ -40,7 +40,7 @@ class Solution {
         boolean match = false;
         for (int i = 0; i < result.size(); i++) {
             List<Integer> list = result.get(i);
-            if ((interval.get(1) - list.get(0)) * (interval.get(0) - list.get(1)) <= 0 ) {
+            if ((interval.get(1) - list.get(0)) * (interval.get(0) - list.get(1)) <= 0) {
                 match = true;
                 if (interval.get(0) < list.get(0)) {
                     list.set(0, interval.get(0));
@@ -58,7 +58,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[][] intervals = {{1,3},{2,6},{8,10},{15,18}};
+        int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
         int[][] result = solution.merge(intervals);
         solution.print(result);
     }

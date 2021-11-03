@@ -3,15 +3,15 @@ package com.zhuangzhao.leetcode.weekly.contest.twozeronine.one;
 class Solution {
     public int specialArray(int[] nums) {
         int count = 0;
-        for (int i = 100; i>= 0; i--) {
+        for (int i = 100; i >= 0; i--) {
             for (int j = 0; j < nums.length; j++) {
                 if (i == 100 && nums[j] >= i) {
-                    count ++;
+                    count++;
                 } else if (nums[j] == i) {
                     count++;
                 }
             }
-            if (count == i)  {
+            if (count == i) {
                 return i;
             }
         }

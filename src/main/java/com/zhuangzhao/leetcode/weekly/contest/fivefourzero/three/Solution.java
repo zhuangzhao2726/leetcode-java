@@ -14,11 +14,11 @@ class Solution {
             index.add(0);
         }
         List<List<Integer>> indexList = new ArrayList<>();
-        int count =  1;
+        int count = 1;
         indexList.add(index);
         while (true) {
             if (count == k) {
-                int total  = 0;
+                int total = 0;
                 for (int j = 0; j < m; j++) {
                     total += mat[j][index.get(j)];
                 }

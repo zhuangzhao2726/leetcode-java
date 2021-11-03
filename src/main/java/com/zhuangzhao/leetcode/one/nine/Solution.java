@@ -17,7 +17,7 @@ class Solution {
             return head;
         }
         if (first.next == null) {
-            head =  head.next;
+            head = head.next;
         } else {
             first = first.next;
             while (first.next != null) {
@@ -50,9 +50,11 @@ class Solution {
 }
 
 
-
 class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
+
+    ListNode(int x) {
+        val = x;
+    }
 }

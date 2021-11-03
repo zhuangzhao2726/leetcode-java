@@ -5,17 +5,17 @@ class Solution {
         int length = nums.length;
         int index = 0;
         for (int i = length - 1; i > 0; i--) {
-            if (nums[i] > nums[i-1]) {
+            if (nums[i] > nums[i - 1]) {
                 index = i;
                 break;
             }
         }
 
-        int value  = 0;
+        int value = 0;
         for (int i = 0; i < (length - index) / 2; i++) {
-            value = nums[index +i];
-            nums[index + i] = nums[length - 1  - i];
-            nums[length - 1  - i]  = value;
+            value = nums[index + i];
+            nums[index + i] = nums[length - 1 - i];
+            nums[length - 1 - i] = value;
         }
         if (index > 0) {
             for (int i = index; i < length; i++) {
@@ -32,7 +32,7 @@ class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        int[] nums = {5,4,7,5,3,2};
+        int[] nums = {5, 4, 7, 5, 3, 2};
         solution.nextPermutation(nums);
 
         for (int num : nums) {

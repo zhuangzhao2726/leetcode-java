@@ -6,11 +6,10 @@ public class Solution {
 
         int total = 0;
         for (int i = 0; i < points.length - 1; i++) {
-            total += calculateTime(points[i], points[i+1]);
+            total += calculateTime(points[i], points[i + 1]);
         }
         return total;
     }
-
 
 
     private int calculateTime(int[] point1, int[] point2) {
@@ -21,7 +20,7 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        int[][] points = {{3,2}, {-2,2}};
+        int[][] points = {{3, 2}, {-2, 2}};
         System.out.println(solution.minTimeToVisitAllPoints(points));
     }
 }

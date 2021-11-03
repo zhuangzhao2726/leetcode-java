@@ -14,7 +14,7 @@ class Solution {
 
     private int bitOfNum(int num) {
         int i = 0;
-        while (num >=1) {
+        while (num >= 1) {
             num >>= 1;
             i++;
         }

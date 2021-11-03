@@ -14,7 +14,7 @@ class Solution {
             } else {
                 List<Integer> listRow = result.get(i - 2);
                 for (int j = 0; j < i; j++) {
-                    if ( j == 0 || j == i - 1) {
+                    if (j == 0 || j == i - 1) {
                         list.add(1);
                     } else {
                         list.add(listRow.get(j - 1) + listRow.get(j));

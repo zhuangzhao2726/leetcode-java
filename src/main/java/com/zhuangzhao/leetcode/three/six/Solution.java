@@ -14,26 +14,26 @@ class Solution {
                 return false;
             }
         }
-        for(int i = 0; i < col; i++) {
+        for (int i = 0; i < col; i++) {
             char[] charCol = new char[row];
-            for(int j = 0; j < row; j++) {
+            for (int j = 0; j < row; j++) {
                 charCol[j] = board[j][i];
             }
             boolean flag = checkRow(charCol);
-            if(!flag) {
+            if (!flag) {
                 return false;
             }
         }
-        for(int i = 0; i < row; i+=3) {
-            for(int j = 0; j < col; j+=3) {
+        for (int i = 0; i < row; i += 3) {
+            for (int j = 0; j < col; j += 3) {
                 char[] charBlock = new char[3 * 3];
-                for(int x = 0; x < 3; x++) {
-                    for(int y = 0; y < 3; y++) {
+                for (int x = 0; x < 3; x++) {
+                    for (int y = 0; y < 3; y++) {
                         charBlock[x * 3 + y] = board[i + x][j + y];
                     }
                 }
                 boolean flag = checkRow(charBlock);
-                if(!flag) {
+                if (!flag) {
                     return false;
                 }
             }
@@ -44,7 +44,7 @@ class Solution {
     private boolean checkRow(char[] chars) {
         Map<Character, Integer> map = new HashMap<Character, Integer>();
         for (char aChar : chars) {
-            if('.'== aChar) {
+            if ('.' == aChar) {
                 continue;
             } else if (map.containsKey(aChar)) {
                 return false;

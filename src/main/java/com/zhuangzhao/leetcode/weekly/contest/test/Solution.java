@@ -21,7 +21,7 @@ class Solution {
             for (int i = 0; i < nums.size(); i++) {
                 if (nums.get(i) > 0) {
                     count++;
-                    nums.set(i, nums.get(i) -  1);
+                    nums.set(i, nums.get(i) - 1);
                 }
             }
             if (count == 0) {
@@ -34,12 +34,10 @@ class Solution {
     }
 
 
-
-
     public void printZhifangtu(String[] metries, int[] value) {
         int max = 0;
         int min = 0;
-        for (int i = 0;  i < value.length; i++) {
+        for (int i = 0; i < value.length; i++) {
             if (max < value[i]) {
                 max = value[i];
             }
@@ -51,12 +49,12 @@ class Solution {
         for (int j = max; j > 0; j--) {
             System.out.print("|");
             for (int i = 0; i < value.length; i++) {
-                 if (j <= value[i]) {
-                     System.out.print(" *");
-                 } else {
-                     System.out.print("  ");
-                 }
-             }
+                if (j <= value[i]) {
+                    System.out.print(" *");
+                } else {
+                    System.out.print("  ");
+                }
+            }
             System.out.println();
         }
         for (int i = 0; i <= metries.length; i++) {
@@ -83,12 +81,10 @@ class Solution {
     }
 
 
-
-
     public static void main(String[] args) {
-       Solution solution = new Solution();
+        Solution solution = new Solution();
         String[] metries = {"a", "b", "c"};
-        int[] value  = {3, -5, 7};
+        int[] value = {3, -5, 7};
         solution.printZhifangtu(metries, value);
     }
 }

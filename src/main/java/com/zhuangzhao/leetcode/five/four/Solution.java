@@ -16,8 +16,8 @@ class Solution {
                 list.add(matrix[i][j]);
             for (int j = i + 1; j < row - i; j++)
                 list.add(matrix[j][col - 1 - i]);
-            if (row / 2 > i )
-                for (int j = col - 2 - i;  j >= i; j--)
+            if (row / 2 > i)
+                for (int j = col - 2 - i; j >= i; j--)
                     list.add(matrix[row - 1 - i][j]);
             if (col / 2 > i)
                 for (int j = row - 2 - i; j > i; j--)

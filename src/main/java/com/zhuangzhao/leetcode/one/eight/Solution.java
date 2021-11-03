@@ -10,7 +10,7 @@ class Solution {
 
         nums = sort(nums);
 
-        for (int i = 0; i < nums.length - 3; i ++) {
+        for (int i = 0; i < nums.length - 3; i++) {
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
@@ -21,7 +21,7 @@ class Solution {
                 }
 
                 int left = i + 1;
-                int right  = j - 1;
+                int right = j - 1;
                 while (left < right) {
                     int total = nums[i] + nums[left] + nums[right] + nums[j];
                     if (total < target) {

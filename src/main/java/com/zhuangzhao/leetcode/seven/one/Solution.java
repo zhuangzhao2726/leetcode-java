@@ -14,7 +14,7 @@ class Solution {
                     break;
                 case "..":
                     if (list.size() > 0) {
-                        list.remove(list.size() -  1);
+                        list.remove(list.size() - 1);
                     }
                     break;
                 default:

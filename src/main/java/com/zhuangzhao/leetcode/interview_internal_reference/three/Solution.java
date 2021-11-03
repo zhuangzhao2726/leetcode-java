@@ -16,14 +16,14 @@ public class Solution {
 
     public Result searchTreeNode(TreeNode node, int index, int k) {
         if (node == null) {
-            return new Result(false,  index - 1, null);
+            return new Result(false, index - 1, null);
         }
         Result result01 = searchTreeNode(node.left, index, k);
         if (result01.found) {
             return result01;
         }
-        index = result01.index +1;
-        if (index == k)  {
+        index = result01.index + 1;
+        if (index == k) {
             return new Result(true, index, node);
         }
         return searchTreeNode(node.right, index + 1, k);

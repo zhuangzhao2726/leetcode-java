@@ -6,13 +6,13 @@ import java.util.Map;
 class Solution {
 
 
-    private Map<String, Integer>  numWaysMap;
+    private Map<String, Integer> numWaysMap;
 
     private String keyPattern = "%s.%s";
 
     public int numWays(int steps, int arrLen) {
 
-        numWaysMap =  new HashMap<>();
+        numWaysMap = new HashMap<>();
         int total = dp(0, steps, arrLen);
         return total;
     }
@@ -20,7 +20,7 @@ class Solution {
 
     private int dp(int pos, int step, int length) {
 
-        if(step == 0) {
+        if (step == 0) {
             return pos == 0 ? 1 : 0;
         }
 
@@ -32,13 +32,13 @@ class Solution {
 
         int total = 0;
         total += dp(pos, step - 1, length);
-        if(pos > 0) {
+        if (pos > 0) {
             total += dp(pos - 1, step - 1, length);
         }
         if (pos < length - 1) {
             total += dp(pos + 1, step - 1, length);
         }
-        total %= (10^9 + 7);
+        total %= (10 ^ 9 + 7);
         numWaysMap.put(key, total);
         return total;
     }

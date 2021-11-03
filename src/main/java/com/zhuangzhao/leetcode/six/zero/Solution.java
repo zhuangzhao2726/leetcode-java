@@ -18,7 +18,7 @@ class Solution {
         short[] value = new short[n];
         for (int i = 0; i < n - 1; i++) {
             if (k == 0) {
-                value[i] = (short) (n  - i);
+                value[i] = (short) (n - i);
             } else {
                 if (k % num[i] == 0) {
                     value[i] = (short) (k / num[i]);
@@ -42,7 +42,7 @@ class Solution {
                     j++;
                 }
             }
-            used[j-1] = true;
+            used[j - 1] = true;
             buffer.append(j);
         }
         return buffer.toString();

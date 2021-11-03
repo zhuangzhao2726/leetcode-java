@@ -14,7 +14,7 @@ public class Solution {
     public boolean isEvenOddTree(List<TreeNode> treeNodes, boolean requreEven) {
         boolean pass = false;
         if (requreEven) {
-            pass =  checkEven(treeNodes);
+            pass = checkEven(treeNodes);
         } else {
             pass = checkOdd(treeNodes);
         }
@@ -41,9 +41,9 @@ public class Solution {
         int min = Integer.MIN_VALUE;
         for (int i = 0; i < treeNodes.size(); i++) {
             if (treeNodes.get(i) != null) {
-                 if (treeNodes.get(i).val %2 != 1) {
-                     return false;
-                 }
+                if (treeNodes.get(i).val % 2 != 1) {
+                    return false;
+                }
                 if (treeNodes.get(i).val <= min) {
                     return false;
                 }
@@ -57,7 +57,7 @@ public class Solution {
         int max = Integer.MAX_VALUE;
         for (int i = 0; i < treeNodes.size(); i++) {
             if (treeNodes.get(i) != null) {
-                if (treeNodes.get(i).val %2 != 0) {
+                if (treeNodes.get(i).val % 2 != 0) {
                     return false;
                 }
                 if (treeNodes.get(i).val >= max) {
@@ -86,14 +86,18 @@ public class Solution {
 }
 
 
-
-
 class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
+
+    TreeNode() {
+    }
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
     TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;

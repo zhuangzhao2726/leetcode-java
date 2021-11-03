@@ -28,7 +28,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums = {5,7,7,8,8,10};
+        int[] nums = {5, 7, 7, 8, 8, 10};
         int target = 7;
         int[] range = solution.searchRange(nums, target);
         System.out.println(range[0] + ", " + range[1]);

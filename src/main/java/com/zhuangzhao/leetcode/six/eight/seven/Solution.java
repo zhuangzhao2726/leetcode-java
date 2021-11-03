@@ -20,13 +20,13 @@ class Solution {
     }
 
     private int searchMax(TreeNode head) {
-        if(head != null) {
+        if (head != null) {
             int leftMax = Integer.MIN_VALUE;
             int rightMax = Integer.MIN_VALUE;
-            if(head.left != null) {
+            if (head.left != null) {
                 leftMax = searchMax(head.left);
             }
-            if(head.right != null){
+            if (head.right != null) {
                 rightMax = searchMax(head.right);
             }
             return maxNum(head.val, leftMax, rightMax);
@@ -42,18 +42,18 @@ class Solution {
     }
 
     private void search(TreeNode root, TreeNode node) {
-        if(root == null) {
+        if (root == null) {
             return;
         }
-        if(root.left == null && root.right == null){
+        if (root.left == null && root.right == null) {
             node.val = 0;
-        } else if(root.left == null) {
+        } else if (root.left == null) {
             node.right = new TreeNode(0);
             search(root.right, node.right);
             if (root.val == root.right.val) {
                 node.val = node.right.val + 1;
             }
-        } else if(root.right == null) {
+        } else if (root.right == null) {
             node.left = new TreeNode(0);
             search(root.left, node.left);
             if (root.val == root.left.val) {
@@ -65,11 +65,11 @@ class Solution {
             search(root.left, node.left);
             search(root.right, node.right);
 
-            if(root.val == root.left.val && root.val == root.right.val) {
+            if (root.val == root.left.val && root.val == root.right.val) {
                 node.val = 1 + node.left.val > node.right.val ? node.left.val : node.right.val;
-            } else if(root.val == root.left.val) {
+            } else if (root.val == root.left.val) {
                 node.val = 1 + node.left.val;
-            } else if(root.val == root.right.val) {
+            } else if (root.val == root.right.val) {
                 node.val = 1 + node.right.val;
             }
         }

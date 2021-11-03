@@ -1,11 +1,10 @@
 package com.zhuangzhao.leetcode.interview.two;
 
 
-
 class Solution {
 
     public Integer count(int[] arr) {
-        int count  = 0;
+        int count = 0;
         for (int value : arr) {
             count += (value / 2);
         }

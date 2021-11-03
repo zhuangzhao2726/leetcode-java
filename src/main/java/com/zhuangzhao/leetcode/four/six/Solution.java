@@ -20,10 +20,10 @@ class Solution {
 
     private List<List<Integer>> search(List<Integer> list, int index) {
         List<List<Integer>> result = new ArrayList<>();
-        if (index == list.size() -1) {
-            result.add( new ArrayList<>(list));
+        if (index == list.size() - 1) {
+            result.add(new ArrayList<>(list));
         }
-        for (int i  = index; i < list.size();  i++) {
+        for (int i = index; i < list.size(); i++) {
             swap(list, index, i);
             List<List<Integer>> search = this.search(list, index + 1);
             if (!search.isEmpty()) {
@@ -45,7 +45,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums = {1,2,3,4};
+        int[] nums = {1, 2, 3, 4};
         List<List<Integer>> result = solution.permute(nums);
 
         for (List<Integer> list : result) {
@@ -55,7 +55,7 @@ class Solution {
 
     private String list2String(List<Integer> list) {
         StringBuilder builder = new StringBuilder();
-        for (int num :  list) {
+        for (int num : list) {
             builder.append(num);
             builder.append(", ");
         }

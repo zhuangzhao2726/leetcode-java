@@ -13,22 +13,20 @@ public class Solution {
         List<Integer> col = new ArrayList<>();
 
 
-
         List<Integer> doubleRow = new ArrayList<>();
 
         List<Integer> doubleCol = new ArrayList<>();
 
 
-
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
-                if(grid[i][j] == 1) {
-                    if(row.contains(i)) {
+                if (grid[i][j] == 1) {
+                    if (row.contains(i)) {
                         doubleRow.add(i);
                     } else {
                         row.add(i);
                     }
-                    if(col.contains(j)) {
+                    if (col.contains(j)) {
                         doubleCol.add(j);
                     } else {
                         col.add(j);
@@ -41,31 +39,29 @@ public class Solution {
 
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
-                if((doubleRow.contains(i) || doubleCol.contains(j)) && grid[i][j] == 1) {
+                if ((doubleRow.contains(i) || doubleCol.contains(j)) && grid[i][j] == 1) {
                     nodes.add(new Node(i, j));
                 }
             }
         }
         return nodes.size();
-        
+
     }
 
 
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        int[][] grid = {{1,0},{0,1}};
+        int[][] grid = {{1, 0}, {0, 1}};
 
-        System.out.println(solution.countServers(grid));;
-
-
-        int[][] test = {{1,1,0,0},{0,0,1,0},{0,0,1,0},{0,0,0,1}};
-
-        System.out.println(solution.countServers(test));;
+        System.out.println(solution.countServers(grid));
+        ;
 
 
+        int[][] test = {{1, 1, 0, 0}, {0, 0, 1, 0}, {0, 0, 1, 0}, {0, 0, 0, 1}};
 
-
+        System.out.println(solution.countServers(test));
+        ;
 
 
     }

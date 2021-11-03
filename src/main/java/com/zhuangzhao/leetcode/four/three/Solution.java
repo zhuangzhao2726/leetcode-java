@@ -17,7 +17,7 @@ class Solution {
     public String multiply(String num1, int num2) {
         StringBuilder builder = new StringBuilder();
         int jinwei = 0;
-        for (int i = num1.length() -1; i >= 0; i--) {
+        for (int i = num1.length() - 1; i >= 0; i--) {
             int value = ((int) num1.charAt(i) - '0') * num2 + jinwei;
             builder.append(value % 10);
             jinwei = value / 10;

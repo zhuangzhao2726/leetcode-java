@@ -3,7 +3,7 @@ package com.zhuangzhao.leetcode.daily.one;
 class Solution {
     public void nextPermutation(int[] nums) {
         int index = 0;
-        for (int i = nums.length -1; i > 0; i--) {
+        for (int i = nums.length - 1; i > 0; i--) {
             if (nums[i - 1] < nums[i]) {
                 index = i;
                 break;
@@ -29,7 +29,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums = {1,2,3};
+        int[] nums = {1, 2, 3};
         solution.nextPermutation(nums);
 
     }

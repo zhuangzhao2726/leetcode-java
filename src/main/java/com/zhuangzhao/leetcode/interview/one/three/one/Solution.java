@@ -10,8 +10,8 @@ public class Solution {
         if (str == null || str.length() == 0) {
             return 0;
         }
-        int left  = 0;
-        int right = str.length() -1;
+        int left = 0;
+        int right = str.length() - 1;
         int count = 0;
         while (left < right) {
             if (str.charAt(left++) != str.charAt(right--)) {

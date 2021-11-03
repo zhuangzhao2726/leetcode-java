@@ -41,9 +41,9 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] staple = {10,20,5};
-        int[] drinks = {5,5,2};
+        int[] staple = {10, 20, 5};
+        int[] drinks = {5, 5, 2};
         int x = 15;
-        System.out.println(solution.breakfastNumber( drinks, staple, x));
+        System.out.println(solution.breakfastNumber(drinks, staple, x));
     }
 }

@@ -12,7 +12,7 @@ class Solution {
 
         while (!willVistQueue.isEmpty()) {
             Integer post = willVistQueue.poll();
-            if (post - arr[post] >= 0 && post - arr[post] < arr.length ) {
+            if (post - arr[post] >= 0 && post - arr[post] < arr.length) {
                 if (arr[post - arr[post]] == 0) {
                     return true;
                 } else if (!visited.contains(post - arr[post])) {
@@ -21,7 +21,7 @@ class Solution {
                 }
             }
 
-            if (post + arr[post] >= 0 && post + arr[post] < arr.length ) {
+            if (post + arr[post] >= 0 && post + arr[post] < arr.length) {
                 if (arr[post + arr[post]] == 0) {
                     return true;
                 } else if (!visited.contains(post + arr[post])) {

@@ -25,12 +25,11 @@ public class Solution {
     }
 
 
-
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.minColor(1,0));
-        System.out.println(solution.minColor(3,3));
-        System.out.println(solution.minColor(5,5));
-        System.out.println(solution.minColor(37,7));
+        System.out.println(solution.minColor(1, 0));
+        System.out.println(solution.minColor(3, 3));
+        System.out.println(solution.minColor(5, 5));
+        System.out.println(solution.minColor(37, 7));
     }
 }

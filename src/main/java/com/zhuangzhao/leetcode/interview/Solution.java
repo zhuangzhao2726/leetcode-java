@@ -49,12 +49,14 @@ public class Solution {
         root.setId("1");
 
         List<TreeNode> children = new ArrayList<>();
-        for (int i =  2; i < 10; i++) {
+        for (int i = 2; i < 10; i++) {
             TreeNode child = new TreeNode();
             child.setId(String.valueOf(i));
             TreeNode son = new TreeNode();
             son.setId(String.valueOf(10 + i));
-            child.setChildren(new ArrayList<TreeNode>(){{add(son);}});
+            child.setChildren(new ArrayList<TreeNode>() {{
+                add(son);
+            }});
             children.add(child);
         }
         root.setChildren(children);

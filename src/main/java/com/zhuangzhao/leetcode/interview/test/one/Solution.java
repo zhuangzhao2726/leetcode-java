@@ -2,6 +2,7 @@ package com.zhuangzhao.leetcode.interview.test.one;
 
 /**
  * 卖漫画书
+ *
  * @Author: zhuangzhao.zhu
  * @Date: 2020-10-18 19:27
  */
@@ -13,7 +14,7 @@ public class Solution {
             if (i == n) {
                 counts[i] = 4;
             } else {
-                counts[i] = counts[i + 1] *2;
+                counts[i] = counts[i + 1] * 2;
             }
         }
         return counts;

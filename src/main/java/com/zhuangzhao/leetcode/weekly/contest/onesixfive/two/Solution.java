@@ -10,7 +10,7 @@ class Solution {
         int count = tomatoSlices - smallNeedTomato;
 
         List<Integer> result = new ArrayList<>();
-        if(count >= 0 && count % 2 == 0 && count /2 <= cheeseSlices) {
+        if (count >= 0 && count % 2 == 0 && count / 2 <= cheeseSlices) {
             int total_jumbo = count / 2;
             int total_small = cheeseSlices - total_jumbo;
             int[] array = new int[2];

@@ -26,8 +26,7 @@ public class Solution {
                         buffer.append(" ");
                     }
                     result.add(buffer.toString());
-                }
-                else if (last == index -1) {
+                } else if (last == index - 1) {
                     StringBuffer buffer = new StringBuffer();
                     buffer.append(words[last]);
                     for (int j = length; j < maxWidth; j++) {
@@ -61,7 +60,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        String[] words = {"What","must","be","acknowledgment","shall","be"};
+        String[] words = {"What", "must", "be", "acknowledgment", "shall", "be"};
         List<String> list = solution.fullJustify(words, 16);
         solution.print(list);
 

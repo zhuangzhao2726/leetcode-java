@@ -8,10 +8,10 @@ import java.util.Map;
 class Solution {
     public int[] countSubTrees(int n, int[][] edges, String labels) {
 
-        int[] result =  new int[n];
+        int[] result = new int[n];
         Map<Integer, List<Integer>> treeMap = new HashMap<>();
         createTreeMap(edges, treeMap, 0);
-        TreeNode[]  treeNodes = new TreeNode[n];
+        TreeNode[] treeNodes = new TreeNode[n];
         for (int i = 0; i < n; i++) {
             TreeNode treeNode = getTreeNode(treeMap, treeNodes, labels, i);
             result[i] = treeNode.count;
@@ -28,7 +28,7 @@ class Solution {
             if (sonNodeList != null && sonNodeList.size() > 0) {
                 for (Integer index : sonNodeList) {
                     TreeNode sonNode = getTreeNode(treeMap, treeNodes, labels, index);
-                    sonNode.charMap.entrySet().forEach( entry -> {
+                    sonNode.charMap.entrySet().forEach(entry -> {
                         Character key = entry.getKey();
                         if (charMap.containsKey(key)) {
                             charMap.put(key, charMap.get(key) + entry.getValue());
@@ -44,7 +44,7 @@ class Solution {
             treeNode.count = charMap.get(treeNode.value);
             treeNodes[i] = treeNode;
         }
-        return  treeNodes[i];
+        return treeNodes[i];
     }
 
     private void createTreeMap(int[][] edges, Map<Integer, List<Integer>> treeMap, int index) {
@@ -69,7 +69,7 @@ class Solution {
         Solution solution = new Solution();
 
         int n = 100000;
-        int[][] edges  =  {{}};
+        int[][] edges = {{}};
         StringBuilder builder = new StringBuilder("");
         int[] result = solution.countSubTrees(n, edges, builder.toString());
         for (int value : result) {
@@ -80,9 +80,8 @@ class Solution {
 }
 
 
-
 class TreeNode {
     Character value;
     int count;
-    Map<Character,Integer> charMap;
+    Map<Character, Integer> charMap;
 }

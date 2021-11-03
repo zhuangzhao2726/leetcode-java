@@ -8,7 +8,7 @@ class Solution {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
                 for (int length = 1; length <= matrix.length; length++) {
-                    if(isAllOne(matrix, i, j, length)) {
+                    if (isAllOne(matrix, i, j, length)) {
                         count++;
                     }
                 }
@@ -18,11 +18,11 @@ class Solution {
     }
 
     public boolean isAllOne(int[][] matrix, int row, int col, int length) {
-        if(row + length > matrix.length || col + length > matrix[0].length) {
+        if (row + length > matrix.length || col + length > matrix[0].length) {
             return false;
         }
 
-        for (int i =0; i < length; i++) {
+        for (int i = 0; i < length; i++) {
             for (int j = 0; j < length; j++) {
                 if (matrix[row + i][col + j] != 1) {
                     return false;

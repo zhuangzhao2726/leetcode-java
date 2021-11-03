@@ -7,7 +7,7 @@ import java.util.Map;
  * @Author: zhuangzhao.zhu
  * @Date: 2020-11-10 11:25
  */
-public class LruCache<K,V> extends LinkedHashMap<K,V> {
+public class LruCache<K, V> extends LinkedHashMap<K, V> {
 
     int capacity;
 
@@ -17,7 +17,7 @@ public class LruCache<K,V> extends LinkedHashMap<K,V> {
     }
 
     @Override
-    protected boolean removeEldestEntry(Map.Entry<K,V> eldest) {
+    protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
         return this.size() > capacity;
     }
 

@@ -13,8 +13,8 @@ public class Solution {
     public static void main(String[] args) {
 
         int count = 6;
-        int[] nums = {8,2,3,5,3,7};
-        int[] types = {2,2,2,2,2,2};
+        int[] nums = {8, 2, 3, 5, 3, 7};
+        int[] types = {2, 2, 2, 2, 2, 2};
 
         Solution solution = new Solution();
         Result result = solution.search(count, nums, types);
@@ -29,7 +29,6 @@ public class Solution {
             System.out.println(result.getTotal());
         }
     }
-
 
 
     public Result search(int count, int[] nums, int[] types) {
@@ -81,7 +80,6 @@ public class Solution {
     }
 
 
-
     private Result generateResult(Bobby[] bobbies, int type) {
         if (bobbies.length < 3) {
             return null;
@@ -96,15 +94,15 @@ public class Solution {
 
 
     private void sort(Bobby[] bobbies) {
-        for (int i =0; i < bobbies.length; i++) {
+        for (int i = 0; i < bobbies.length; i++) {
             int max = 0;
             for (int j = 1; j < bobbies.length - i; j++) {
                 if (compareLess(bobbies[max], bobbies[j])) {
                     max = j;
                 }
             }
-            Bobby bobby = bobbies[bobbies.length - 1 -i];
-            bobbies[bobbies.length - 1 -i] = bobbies[max];
+            Bobby bobby = bobbies[bobbies.length - 1 - i];
+            bobbies[bobbies.length - 1 - i] = bobbies[max];
             bobbies[max] = bobby;
         }
     }
@@ -117,7 +115,6 @@ public class Solution {
         }
         return false;
     }
-
 
 
 }

@@ -21,7 +21,7 @@ class LRUCache {
         this.capacity = capacity;
         this.map = new HashMap<>(capacity);
     }
-    
+
     public int get(int key) {
         Integer value = map.getOrDefault(key, DEFAULT_VALUE);
         if (value != DEFAULT_VALUE) {
@@ -29,7 +29,6 @@ class LRUCache {
         }
         return value;
     }
-
 
 
     public void put(int key, int value) {
@@ -49,8 +48,8 @@ class LRUCache {
     }
 
     private void insertNode(int key) {
-        Node node = Node.createNewNode(null, head,key);
-        head  = node;
+        Node node = Node.createNewNode(null, head, key);
+        head = node;
         if (tail == null) {
             tail = node;
         }
@@ -92,10 +91,10 @@ class LRUCache {
 
     public static void main(String[] args) {
         LRUCache lruCache = new LRUCache(2);
-        lruCache.put(1,1);
-        lruCache.put(2,2);
+        lruCache.put(1, 1);
+        lruCache.put(2, 2);
         lruCache.get(1);
-        lruCache.put(3,3);
+        lruCache.put(3, 3);
         lruCache.get(2);
     }
 }

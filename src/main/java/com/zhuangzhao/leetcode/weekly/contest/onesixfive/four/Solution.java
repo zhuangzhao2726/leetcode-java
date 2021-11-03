@@ -14,18 +14,18 @@ class Solution {
 
         for (int i = 1; i <= s.length(); i++) {
             for (int j = 1; j <= k; j++) {
-                if(i == 1) {
+                if (i == 1) {
                     dp[i][j] = 0;
                     continue;
                 }
-                if(j == 1) {
-                    dp[i][j] = minStep(s, 0, i -1);
+                if (j == 1) {
+                    dp[i][j] = minStep(s, 0, i - 1);
                     continue;
                 } else {
                     int min = Integer.MAX_VALUE;
-                    for (int index = 1; index < i; index ++) {
-                        int count  = dp[index][j - 1] + minStep(s, index, i - 1);
-                        if(count < min) {
+                    for (int index = 1; index < i; index++) {
+                        int count = dp[index][j - 1] + minStep(s, index, i - 1);
+                        if (count < min) {
                             min = count;
                         }
                     }
@@ -38,14 +38,14 @@ class Solution {
 
 
     private int minStep(String s, int start, int end) {
-        if(start >= s.length() || end >= s.length() || start >= end) {
+        if (start >= s.length() || end >= s.length() || start >= end) {
             return 0;
         }
         int i = start;
         int j = end;
         int count = 0;
         while (i < j) {
-            if(s.charAt(i) != s.charAt(j)) {
+            if (s.charAt(i) != s.charAt(j)) {
                 count++;
             }
             i++;
@@ -63,11 +63,9 @@ class Solution {
         System.out.println(solution.palindromePartition(s, k));
 
 
-
         s = "aabbc";
         k = 3;
         System.out.println(solution.palindromePartition(s, k));
-
 
 
         s = "leetcode";

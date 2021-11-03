@@ -10,11 +10,11 @@ class Solution {
 
         }
         if (value > Math.pow(2, 31))
-        if (x < 0 && value > Math.pow(2, 31)) {
-            return 0;
-        } else if (x < 0) {
-            return (int) (0 -value);
-        }
+            if (x < 0 && value > Math.pow(2, 31)) {
+                return 0;
+            } else if (x < 0) {
+                return (int) (0 - value);
+            }
 
         if (value >= Math.pow(2, 31)) {
             return 0;

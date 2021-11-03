@@ -32,7 +32,7 @@ class Solution {
                 }
             }
             return builder.toString();
-        } else if (n == 1){
+        } else if (n == 1) {
             return "1";
         } else {
             return "";

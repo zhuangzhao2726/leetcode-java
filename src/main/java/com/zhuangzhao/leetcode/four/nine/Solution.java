@@ -10,7 +10,7 @@ class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
         for (String value : strs) {
-            String key =  generateKey(value);
+            String key = generateKey(value);
             List<String> list = map.getOrDefault(key, new ArrayList<>());
             list.add(value);
             map.put(key, list);

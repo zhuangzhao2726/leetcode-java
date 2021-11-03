@@ -17,7 +17,7 @@ class Solution {
             }
         }
         if (j == needle.length()) {
-            return i -  j;
+            return i - j;
         }
         return -1;
     }
@@ -44,6 +44,6 @@ class Solution {
 //        System.out.println(solution.strStr("hello", "ll"));
 //        System.out.println(solution.strStr("aaaaa", "bba"));
 //        System.out.println(solution.strStr("aaaaa", "bba"));
-        System.out.println(solution.strStr("mississippi","issip"));
+        System.out.println(solution.strStr("mississippi", "issip"));
     }
 }

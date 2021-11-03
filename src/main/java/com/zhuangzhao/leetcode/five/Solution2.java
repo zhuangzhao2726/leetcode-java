@@ -1,6 +1,5 @@
 package com.zhuangzhao.leetcode.five;
 
-import org.junit.Test;
 
 class Solution2 {
     public boolean isPalindrome(String s) {
@@ -9,7 +8,7 @@ class Solution2 {
         int i = 0;
         int j = length - 1;
         while (i < j && i < length && j >= 0) {
-            if(s.charAt(i) != s.charAt(j)) {
+            if (s.charAt(i) != s.charAt(j)) {
                 return false;
             }
             i++;

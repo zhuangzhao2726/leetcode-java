@@ -23,7 +23,7 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
             if (map01.getOrDefault(i - 2, 0) + map02.getOrDefault(i + 1, 0) ==
                     map01.getOrDefault(i - 1, 0) + map02.getOrDefault(i + 2, 0)) {
-                count ++;
+                count++;
             }
         }
         return count;
@@ -32,7 +32,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums = {2,1,6,4};
+        int[] nums = {2, 1, 6, 4};
         System.out.println(solution.waysToMakeFair(nums));
     }
 }

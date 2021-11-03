@@ -31,6 +31,6 @@ class Solution1 {
 
     public static void main(String[] args) {
         Solution1 solution = new Solution1();
-        System.out.println(solution.findKthNumber(681692778,351251360));
+        System.out.println(solution.findKthNumber(681692778, 351251360));
     }
 }

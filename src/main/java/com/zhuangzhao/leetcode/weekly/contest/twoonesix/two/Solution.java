@@ -9,7 +9,7 @@ class Solution {
             if (i < n - zCount - 1) {
                 buffer.append('a');
             } else if (i == n - zCount - 1) {
-                buffer.append((char)('a' + incr));
+                buffer.append((char) ('a' + incr));
             } else {
                 buffer.append("z");
             }

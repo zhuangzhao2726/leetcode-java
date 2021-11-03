@@ -49,7 +49,7 @@ class Solution {
         boolean match = false;
         for (int i = 0; i < result.size(); i++) {
             List<Integer> list = result.get(i);
-            if ((interval.get(1) - list.get(0)) * (interval.get(0) - list.get(1)) <= 0 ) {
+            if ((interval.get(1) - list.get(0)) * (interval.get(0) - list.get(1)) <= 0) {
                 match = true;
                 if (interval.get(0) < list.get(0)) {
                     list.set(0, interval.get(0));
@@ -67,8 +67,8 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[][] intervals = {{1,3},{6,9}};
-        int[] newInterval = {4,5};
+        int[][] intervals = {{1, 3}, {6, 9}};
+        int[] newInterval = {4, 5};
         int[][] result = solution.insert(intervals, newInterval);
         solution.print(result);
     }

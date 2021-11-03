@@ -22,31 +22,29 @@ class Solution2 {
         int right2 = length2 - 1;
 
 
-       while (index <= (length1 + length2) / 2) {
+        while (index <= (length1 + length2) / 2) {
 
-           int mid11 = left1 + (right1 - left1) / 2;
-           int mid12 = left1 + (right1 - left1 + 1) / 2;
+            int mid11 = left1 + (right1 - left1) / 2;
+            int mid12 = left1 + (right1 - left1 + 1) / 2;
 
-           int mid21 = left2 + (right2 - left2) / 2;
-           int mid22 = left2 + (right2 - left2 + 1) / 2;
+            int mid21 = left2 + (right2 - left2) / 2;
+            int mid22 = left2 + (right2 - left2 + 1) / 2;
 
-            if(left1 > right1) {
-                return ((double)(nums2[(length / 2 - length1)] + nums2[(length + 1) / 2 - left1])) / 2;
-            } else if(left2 > right2) {
-                return ((double)(nums1[(length / 2 - length2)] + nums1[(length + 1) / 2 - left2])) / 2;
+            if (left1 > right1) {
+                return ((double) (nums2[(length / 2 - length1)] + nums2[(length + 1) / 2 - left1])) / 2;
+            } else if (left2 > right2) {
+                return ((double) (nums1[(length / 2 - length2)] + nums1[(length + 1) / 2 - left2])) / 2;
             } else {
-                if(nums1[mid12] >= nums2[mid22]){
+                if (nums1[mid12] >= nums2[mid22]) {
                     right1 = mid11;
                 } else {
                     right2 = mid21;
                 }
 
-                if(nums1[mid11] <= nums2[mid21]){
-                    if(index + (mid11 - left1 + 1) <= ((length - 1))){
+                if (nums1[mid11] <= nums2[mid21]) {
+                    if (index + (mid11 - left1 + 1) <= ((length - 1))) {
                         left1 = mid12;
                     }
-
-
 
 
                 } else {
@@ -54,20 +52,18 @@ class Solution2 {
                 }
 
 
-
             }
 
 
+            index1 = left1 + (right2 - left1) / 2;
+            index2 = left2 + (right2 - left2) / 2;
+            if (index1 >= left1 && index2 >= left2) {
+                if (nums1[index1] <= nums2[index2]) {
 
-           index1 = left1 + (right2 - left1) / 2;
-           index2 = left2 + (right2 - left2) / 2;
-           if(index1 >= left1 && index2 >= left2) {
-               if (nums1[index1] <= nums2[index2]) {
+                }
+            }
 
-               }
-           }
-
-       }
-       return 0;
+        }
+        return 0;
     }
 }

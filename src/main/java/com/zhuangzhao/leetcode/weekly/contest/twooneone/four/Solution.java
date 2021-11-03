@@ -16,7 +16,7 @@ class Solution {
             }
             return result;
         }
-        if (threshold >= n /2) {
+        if (threshold >= n / 2) {
             for (int[] nums : queries) {
                 result.add(false);
             }
@@ -82,19 +82,19 @@ class Solution {
     }
 
     private boolean canReach(Map<Integer, Set<Integer>> yinziMap, int a, int b, int threshold) {
-       Set set1 = yinziMap.getOrDefault(a, new HashSet<>());
-       Set set2 = yinziMap.getOrDefault(b, new HashSet<>());
-       Set result = new HashSet();
-       result.addAll(set1);
-       result.retainAll(set2);
-       return !result.isEmpty();
+        Set set1 = yinziMap.getOrDefault(a, new HashSet<>());
+        Set set2 = yinziMap.getOrDefault(b, new HashSet<>());
+        Set result = new HashSet();
+        result.addAll(set1);
+        result.retainAll(set2);
+        return !result.isEmpty();
     }
 
 
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[][] queries = {
-                {1,4},{2,5},{3,6}};
+                {1, 4}, {2, 5}, {3, 6}};
         List<Boolean> list = solution.areConnected(8644, 3456, queries);
         for (boolean flag : list) {
             System.out.println(flag);

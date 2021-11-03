@@ -10,7 +10,6 @@ class Solution {
     }
 
 
-
     private List<List<Integer>> sreach(int[] nums, int n, int index) {
         List<List<Integer>> result = new ArrayList<>();
         if (index == n) {
@@ -33,7 +32,7 @@ class Solution {
                 canPlace = false;
             } else if (nums[i] - num == i - index) {
                 canPlace = false;
-            } else if (nums[i] - num == - (i - index)) {
+            } else if (nums[i] - num == -(i - index)) {
                 canPlace = false;
             }
         }

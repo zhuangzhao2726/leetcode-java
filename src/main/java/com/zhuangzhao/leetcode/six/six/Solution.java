@@ -34,7 +34,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] digits = {1,2,3,4,9,9,9};
+        int[] digits = {1, 2, 3, 4, 9, 9, 9};
         digits = solution.plusOne(digits);
         solution.print(digits);
     }

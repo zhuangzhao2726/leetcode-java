@@ -15,12 +15,12 @@ class Solution {
                 return i + 1;
             }
         }
-        return nums.length == 0? 1 : nums.length + 1;
+        return nums.length == 0 ? 1 : nums.length + 1;
     }
 
 
     public static void main(String[] args) {
-        int[] nums = {3,4,-1,1};
+        int[] nums = {3, 4, -1, 1};
         Solution solution = new Solution();
         System.out.println(solution.firstMissingPositive(nums));
     }

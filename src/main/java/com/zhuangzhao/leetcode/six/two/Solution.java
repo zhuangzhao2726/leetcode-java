@@ -6,7 +6,7 @@ class Solution {
             return 1;
         }
         int step = m + n - 2;
-        return (int) zuheshu(step, m -1 < n - 1 ?  m -1 : n - 1);
+        return (int) zuheshu(step, m - 1 < n - 1 ? m - 1 : n - 1);
     }
 
     private long zuheshu(int m, int n) {

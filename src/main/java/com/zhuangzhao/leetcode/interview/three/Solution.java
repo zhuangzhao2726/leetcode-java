@@ -18,7 +18,6 @@ public class Solution {
 }
 
 
-
 class Node {
     int val;
 

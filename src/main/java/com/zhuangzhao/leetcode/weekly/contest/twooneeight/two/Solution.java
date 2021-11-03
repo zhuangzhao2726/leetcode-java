@@ -34,7 +34,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums = {3,1,3,4,3};
+        int[] nums = {3, 1, 3, 4, 3};
         System.out.println(solution.maxOperations(nums, 6));
     }
 }

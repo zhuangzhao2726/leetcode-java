@@ -17,11 +17,11 @@ public class Solution {
         for (int index = 0; index < searchWord.length(); index++) {
             List<String> list = new ArrayList<>();
             String keyword = searchWord.substring(0, index + 1);
-            if(!productList.isEmpty()) {
+            if (!productList.isEmpty()) {
                 Iterator<String> iterator = productList.iterator();
                 while (iterator.hasNext() && list.size() < 3) {
                     String next = iterator.next();
-                    if(next.startsWith(keyword)) {
+                    if (next.startsWith(keyword)) {
                         list.add(next);
                     } else {
                         iterator.remove();
@@ -36,10 +36,10 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        String[] sortStr = new String[]{"CD","BD","AD"};
+        String[] sortStr = new String[]{"CD", "BD", "AD"};
         Arrays.sort(sortStr);
-        for(int i=0;i<sortStr.length;++i){
-            System.out.println(sortStr[i]+' ');
+        for (int i = 0; i < sortStr.length; ++i) {
+            System.out.println(sortStr[i] + ' ');
         }
 
 
@@ -55,12 +55,12 @@ public class Solution {
 
         Solution solution = new Solution();
 
-        String[] products = {"mobile","mouse","moneypot","monitor","mousepad"};
+        String[] products = {"mobile", "mouse", "moneypot", "monitor", "mousepad"};
         String searchWord = "mouse";
 
         List<List<String>> result = solution.suggestedProducts(products, searchWord);
 
-        for (List<String> list1 : result){
+        for (List<String> list1 : result) {
             System.out.println(list1);
         }
 
@@ -73,19 +73,19 @@ public class Solution {
 
         result = solution.suggestedProducts(products2, searchWord);
 
-        for (List<String> list1 : result){
+        for (List<String> list1 : result) {
             System.out.println(list1);
         }
 
         System.out.println();
 
-        String[] products3 = {"bags","baggage","banner","box","cloths"};
+        String[] products3 = {"bags", "baggage", "banner", "box", "cloths"};
         searchWord = "bags";
 
 
         result = solution.suggestedProducts(products3, searchWord);
 
-        for (List<String> list1 : result){
+        for (List<String> list1 : result) {
             System.out.println(list1);
         }
 
@@ -98,7 +98,7 @@ public class Solution {
 
         result = solution.suggestedProducts(products4, searchWord);
 
-        for (List<String> list1 : result){
+        for (List<String> list1 : result) {
             System.out.println(list1);
         }
     }

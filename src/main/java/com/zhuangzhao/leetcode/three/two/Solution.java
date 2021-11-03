@@ -15,12 +15,12 @@ class Solution {
                     array[i] = 2;
                 }
             } else {
-                int left = i - array[i - 1] -1;
-                if (left >= 0 && s.charAt(left) == '(' && s.charAt(i)  ==  ')') {
+                int left = i - array[i - 1] - 1;
+                if (left >= 0 && s.charAt(left) == '(' && s.charAt(i) == ')') {
                     if (left > 0) {
-                        array[i] = array[left - 1] + array[i - 1] +  2;
+                        array[i] = array[left - 1] + array[i - 1] + 2;
                     } else {
-                        array[i] = array[i - 1] +  2;
+                        array[i] = array[i - 1] + 2;
                     }
                 }
             }
@@ -35,7 +35,7 @@ class Solution {
     }
 
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         Solution solution = new Solution();
         System.out.println(solution.longestValidParentheses("()(())"));
     }

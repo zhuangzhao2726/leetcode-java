@@ -10,8 +10,8 @@ class Solution {
         f[1][1] = f[0][0] + (leaves.charAt(1) == 'y' ? 0 : 1);
         f[1][2] = Integer.MAX_VALUE;
         for (int i = 2; i < leaves.length(); i++) {
-            f[i][0] =  f[i - 1][0] + (leaves.charAt(i) == 'r' ? 0 : 1);
-            f[i][1] = (Math.min(f[i - 1][0] , f[i - 1][1]) + (leaves.charAt(i) == 'y' ? 0 : 1));
+            f[i][0] = f[i - 1][0] + (leaves.charAt(i) == 'r' ? 0 : 1);
+            f[i][1] = (Math.min(f[i - 1][0], f[i - 1][1]) + (leaves.charAt(i) == 'y' ? 0 : 1));
             f[i][2] = (Math.min(f[i - 1][1], f[i - 1][2]) + (leaves.charAt(i) == 'r' ? 0 : 1));
         }
         return f[leaves.length() - 1][2];

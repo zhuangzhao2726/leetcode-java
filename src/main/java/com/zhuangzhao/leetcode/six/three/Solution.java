@@ -10,9 +10,9 @@ class Solution {
                 } else if (i == 0 && j == 0) {
                     dp[j] = 1;
                 } else if (i != 0 && j != 0) {
-                    dp[j] = dp[j - 1 ] + dp[j];
+                    dp[j] = dp[j - 1] + dp[j];
                 } else if (i == 0) {
-                    dp[j] = dp[j - 1 ];
+                    dp[j] = dp[j - 1];
                 } else {
                     dp[j] = dp[j];
                 }
@@ -25,9 +25,9 @@ class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[][] obstacleGrid = {
-                {0,0,0},
-                {0,1,0},
-                {0,0,0}
+                {0, 0, 0},
+                {0, 1, 0},
+                {0, 0, 0}
         };
         System.out.println(solution.uniquePathsWithObstacles(obstacleGrid));
     }

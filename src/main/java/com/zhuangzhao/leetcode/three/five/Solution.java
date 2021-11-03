@@ -7,7 +7,7 @@ class Solution {
                 return i;
             } else if (i + 1 < nums.length && nums[i + 1] > target) {
                 return i + 1;
-            } else if (i == nums.length){
+            } else if (i == nums.length) {
                 return i;
             }
         }
@@ -16,7 +16,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums = {1,3,5,6};
+        int[] nums = {1, 3, 5, 6};
         System.out.println(solution.searchInsert(nums, 1));
         System.out.println(solution.searchInsert(nums, 2));
         System.out.println(solution.searchInsert(nums, 3));

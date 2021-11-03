@@ -32,7 +32,7 @@ class Solution {
                     total_02 = 0;
                     i++;
                     j++;
-                } else if (nums1[i] < nums2[j]){
+                } else if (nums1[i] < nums2[j]) {
                     total_01 += nums1[i];
                     i++;
                 } else {
@@ -56,8 +56,8 @@ class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        int[] nums1 = {1,3,5,7,9};
-        int[] nums2 = {3,5,100};
+        int[] nums1 = {1, 3, 5, 7, 9};
+        int[] nums2 = {3, 5, 100};
 
         System.out.println(solution.maxSum(nums1, nums2));
     }

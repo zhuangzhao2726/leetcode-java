@@ -11,7 +11,7 @@ class Solution {
             count++;
         } else {
             for (int i = 0; i < n; i++) {
-                if(canPlace(nums, index, i)) {
+                if (canPlace(nums, index, i)) {
                     nums[index] = i;
                     count += this.search(nums, n, index + 1);
                 }

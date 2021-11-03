@@ -5,7 +5,8 @@ import java.util.Map;
 
 class Solution {
 
-    private static Map<String, Integer>  map = new HashMap<>();
+    private static Map<String, Integer> map = new HashMap<>();
+
     static {
         map.put("M", 1000);
         map.put("D", 500);
@@ -21,10 +22,11 @@ class Solution {
         map.put("IX", 9);
         map.put("IV", 4);
     }
+
     public int romanToInt(String s) {
 
         int value = 0;
-        for (int i = 0; i < s.length();) {
+        for (int i = 0; i < s.length(); ) {
             if (i < s.length() - 1 && map.containsKey(s.substring(i, i + 2))) {
                 value += map.get(s.substring(i, i + 2));
                 i += 2;
@@ -41,8 +43,6 @@ class Solution {
         Solution solution = new Solution();
         System.out.println(solution.romanToInt("MCMXCIV"));
     }
-
-
 
 
 }

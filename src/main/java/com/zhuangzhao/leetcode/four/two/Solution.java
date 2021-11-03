@@ -29,7 +29,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] height = {4,2,0,3,2,5};
+        int[] height = {4, 2, 0, 3, 2, 5};
         System.out.println(solution.trap(height));
     }
 }

@@ -10,7 +10,7 @@ class Solution {
             list.add(String.valueOf(i));
         }
         list.sort(String::compareTo);
-        return Integer.valueOf(list.get(k -1));
+        return Integer.valueOf(list.get(k - 1));
     }
 
 

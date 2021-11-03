@@ -4,12 +4,12 @@ public class Solution1 {
 
     /**
      * 分析
-     *
+     * <p>
      * 长度为l的字符串，分为n行
-     *
+     * <p>
      * 2 * n - 2 为一个循环
-     *
-     *
+     * <p>
+     * <p>
      * 第i行的数据：(2 * n - 2) * j + i (j < i)
      * 第i行的数据：(2 * n - 2) * j + (2 * n - 2) - i (j >= i)
      */
@@ -22,7 +22,7 @@ public class Solution1 {
 
         StringBuffer builder = new StringBuffer(s.length());
 
-        int count = numRows + numRows -2;
+        int count = numRows + numRows - 2;
         int circle = s.length() / count;
 
 
@@ -51,7 +51,6 @@ public class Solution1 {
         }
         return builder.toString();
     }
-
 
 
     public static void main(String[] args) {

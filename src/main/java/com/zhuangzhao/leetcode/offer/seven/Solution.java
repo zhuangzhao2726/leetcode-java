@@ -12,7 +12,7 @@ class Solution {
         int mid = (end - start) / 2 + start;
         if (numbers[start] < numbers[start]) {
             return search(numbers, mid, end);
-        } else if (numbers[start] > numbers[mid]){
+        } else if (numbers[start] > numbers[mid]) {
             return search(numbers, start, mid);
         } else {
             int a = search(numbers, start, mid);
@@ -25,7 +25,7 @@ class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 //        int[] nums = {3,4,5,1,2};
-        int[] nums = {2,2,2,0,1};
+        int[] nums = {2, 2, 2, 0, 1};
         System.out.println(solution.minArray(nums));
     }
 }

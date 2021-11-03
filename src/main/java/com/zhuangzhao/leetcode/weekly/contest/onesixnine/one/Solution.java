@@ -7,8 +7,8 @@ class Solution {
         if (n % 2 == 0) {
             setValue(result, n);
         } else {
-            setValue(result, n-3);
-            setValue(result, n-3, n-1);
+            setValue(result, n - 3);
+            setValue(result, n - 3, n - 1);
         }
         return result;
     }
@@ -16,12 +16,10 @@ class Solution {
     private void setValue(int[] result, int start, int end) {
 
 
-
-
     }
 
     private void setValue(int[] result, int n) {
-        for (int i =0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             result[i] = (int) Math.pow(-1, i) * (i / 2 + 1);
         }
     }

@@ -16,9 +16,9 @@ class Solution {
             map[i][i] = true;
         }
         // 判断成都为2的回文串
-        for (int i = 0; i < length - 1; i++){
-            if (s.charAt(i) == s.charAt(i+1)) {
-                map[i][i+1] = true;
+        for (int i = 0; i < length - 1; i++) {
+            if (s.charAt(i) == s.charAt(i + 1)) {
+                map[i][i + 1] = true;
             }
         }
         //  f(i,j) = f(i+1,j-1) && (s(i) == s(j))
@@ -38,7 +38,7 @@ class Solution {
         for (int i = 0; i < length; i++) {
             int count = 0;
             for (int j = i; j < length; j++) {
-                if (map[i][j]){
+                if (map[i][j]) {
                     count = j - i + 1;
                 }
             }

@@ -2,7 +2,7 @@ package com.zhuangzhao.leetcode.two.one.five;
 
 class Solution {
     public int findKthLargest(int[] nums, int k) {
-        for (int i = (nums.length - 2)/2; i >= 0; i--) {
+        for (int i = (nums.length - 2) / 2; i >= 0; i--) {
             this.adjust(nums, i, nums.length);
         }
         for (int i = 1; i < k; i++) {
@@ -37,11 +37,11 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums = {3,2,1,5,6,4};
+        int[] nums = {3, 2, 1, 5, 6, 4};
         System.out.println(solution.findKthLargest(nums, 2));
 
 
-        int[] nums1 = {3,2,3,1,2,4,5,5,6};
+        int[] nums1 = {3, 2, 3, 1, 2, 4, 5, 5, 6};
         System.out.println(solution.findKthLargest(nums1, 4));
     }
 }

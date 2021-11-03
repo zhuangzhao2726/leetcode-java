@@ -15,9 +15,9 @@ class Solution {
         while (index1 < length1 || index2 < length2) {
             if (index1 == length1) {
                 num[index++] = nums2[index2++];
-            } else if(index2 == length2) {
+            } else if (index2 == length2) {
                 num[index++] = nums1[index1++];
-            } else if(nums1[index1] <= nums2[index2]) {
+            } else if (nums1[index1] <= nums2[index2]) {
                 num[index++] = nums1[index1++];
             } else {
                 num[index++] = nums2[index2++];

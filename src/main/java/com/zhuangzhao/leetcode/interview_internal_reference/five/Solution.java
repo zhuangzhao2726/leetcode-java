@@ -17,7 +17,7 @@ public class Solution {
         }
         if (first == null) {
             return head;
-        } else if (first.next == null){
+        } else if (first.next == null) {
             return head.next;
         } else {
             first = first.next;
@@ -40,17 +40,15 @@ public class Solution {
         head02 = solution.removtKthNode(head02, 2);
         System.out.println(Optional.ofNullable(head02).map(LinkNode::getVal).orElse(-1));
 
-        LinkNode head03 = new LinkNode(1,  new LinkNode(2, null));
+        LinkNode head03 = new LinkNode(1, new LinkNode(2, null));
         head03 = solution.removtKthNode(head03, 1);
         System.out.println(Optional.ofNullable(head03).map(LinkNode::getVal).orElse(-1));
 
-        LinkNode head04 = new LinkNode(1,  new LinkNode(2, null));
+        LinkNode head04 = new LinkNode(1, new LinkNode(2, null));
         head04 = solution.removtKthNode(head04, 2);
         System.out.println(Optional.ofNullable(head04).map(LinkNode::getVal).orElse(-1));
     }
 }
-
-
 
 
 class LinkNode {

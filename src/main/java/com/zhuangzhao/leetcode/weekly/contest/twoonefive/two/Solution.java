@@ -5,8 +5,8 @@ import java.util.List;
 
 class Solution {
     public boolean closeStrings(String word1, String word2) {
-        int[] word1CharCount =  this.countChar(word1);
-        int[] word2CharCount =  this.countChar(word2);
+        int[] word1CharCount = this.countChar(word1);
+        int[] word2CharCount = this.countChar(word2);
 
         for (int i = 0; i < word1CharCount.length; i++) {
             if (word1CharCount[i] * word2CharCount[i] == 0 && word1CharCount[i] + word2CharCount[i] > 0) {
@@ -15,11 +15,10 @@ class Solution {
         }
 
 
-
         word1CharCount = Arrays.stream(word1CharCount).sorted().toArray();
         word2CharCount = Arrays.stream(word2CharCount).sorted().toArray();
         for (int i = 0; i < word1CharCount.length; i++) {
-            if (word1CharCount[i]!= word2CharCount[i]) {
+            if (word1CharCount[i] != word2CharCount[i]) {
                 return false;
             }
         }

@@ -28,11 +28,11 @@ class Solution {
                 for (int i = 0; i <= index; i++) {
                     counts.set(i, right);
                 }
-                total = total + ((long) left + right + 1)* (long)(left - right) *(index + 1)  / 2 ;
+                total = total + ((long) left + right + 1) * (long) (left - right) * (index + 1) / 2;
                 total %= MAX_VALUE;
                 orders -= (left - right) * (index + 1);
             } else {
-                for (int i  = left; i > right;i--) {
+                for (int i = left; i > right; i--) {
                     for (int j = 0; orders > 0 && j <= index; j++) {
                         total += i;
                         total %= MAX_VALUE;
@@ -46,7 +46,6 @@ class Solution {
         }
         return (int) total;
     }
-
 
 
     public static void main(String[] args) {

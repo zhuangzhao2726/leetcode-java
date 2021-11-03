@@ -14,8 +14,8 @@ class Solution {
                         buffer.deleteCharAt(buffer.length() - 1);
                     }
                     break;
-                    default:
-                        buffer.append(s.charAt(i));
+                default:
+                    buffer.append(s.charAt(i));
             }
         }
         return buffer.toString();

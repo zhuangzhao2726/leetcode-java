@@ -3,7 +3,10 @@ package com.zhuangzhao.leetcode.two.zero.six;
 class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
+
+    ListNode(int x) {
+        val = x;
+    }
 
     public ListNode(int val, ListNode next) {
         this.val = val;

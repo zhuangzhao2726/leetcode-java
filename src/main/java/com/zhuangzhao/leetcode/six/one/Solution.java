@@ -6,7 +6,7 @@ class Solution {
         int length = 0;
         ListNode p = head;
         ListNode tail = head;
-        while (p != null)  {
+        while (p != null) {
             length++;
             tail = p;
             p = p.next;
@@ -46,7 +46,10 @@ class Solution {
 class ListNode {
     int val;
     ListNode next;
-    ListNode(int x) { val = x; }
+
+    ListNode(int x) {
+        val = x;
+    }
 
     public ListNode(int val, ListNode next) {
         this.val = val;

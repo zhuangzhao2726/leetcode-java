@@ -13,11 +13,11 @@ class CQueue {
         stack2 = new Stack<>();
 
     }
-    
+
     public void appendTail(int value) {
         stack2.push(value);
     }
-    
+
     public int deleteHead() {
         if (stack1.empty()) {
             while (!stack2.empty()) {

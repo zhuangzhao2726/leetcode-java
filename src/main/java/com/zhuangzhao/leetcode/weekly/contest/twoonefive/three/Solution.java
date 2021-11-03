@@ -6,7 +6,7 @@ import java.util.Map;
 class Solution {
     public int minOperations(int[] nums, int x) {
         int[] counts = new int[nums.length + 1];
-        for (int i  = 0;  i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             if (i == 0) {
                 counts[i] = nums[i];
             } else {
@@ -15,7 +15,7 @@ class Solution {
         }
         int[] revertCounts = new int[nums.length];
         Map<Integer, Integer> countsMap = new HashMap<>();
-        for (int i  = nums.length - 1;  i >= 0; i--) {
+        for (int i = nums.length - 1; i >= 0; i--) {
             if (i == nums.length - 1) {
                 revertCounts[i] = nums[i];
             } else {
@@ -39,12 +39,12 @@ class Solution {
                 }
             }
         }
-        return min == Integer.MAX_VALUE ? -1 :min;
+        return min == Integer.MAX_VALUE ? -1 : min;
     }
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] nums = {1,1,4,2,3};
+        int[] nums = {1, 1, 4, 2, 3};
         System.out.println(solution.minOperations(nums, 5));
     }
 }

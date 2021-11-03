@@ -12,7 +12,7 @@ public class Solution {
         } else if (m <= n) {
             return -1;
         } else {
-            return 1 + (int) Math.ceil( (len - m)/ (double)(m - n));
+            return 1 + (int) Math.ceil((len - m) / (double) (m - n));
         }
     }
 
