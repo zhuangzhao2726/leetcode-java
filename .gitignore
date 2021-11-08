@@ -1,3 +1,4 @@
 target/*
 leetcode-java.iml
 .idea/*
+**/.DS_Store
