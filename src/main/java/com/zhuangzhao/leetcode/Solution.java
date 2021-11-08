@@ -19,6 +19,8 @@ class Car {
     private String color;
     private String size;
     private String brand;
+    private String num;
+    private Integer count;
 
     public String getName() {
         return name;
