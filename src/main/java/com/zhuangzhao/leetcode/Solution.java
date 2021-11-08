@@ -82,3 +82,7 @@ class Pig {
         this.age = age;
     }
 }
+
+class Cat {
+
+}
